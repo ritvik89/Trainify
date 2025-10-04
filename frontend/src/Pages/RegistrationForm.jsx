@@ -59,7 +59,7 @@ export default function RegistrationForm() {
             <div className='signup-root'>
                 <Navigation />
                 <div className='register-container'>
-                    <h2>Registration Form</h2>
+                    <h2>SignUp</h2>
 
                     <form onSubmit={handleSubmit}>
                         <input type='name' name='name' value={formData.name} onChange={handleChange} placeholder='Name' required />

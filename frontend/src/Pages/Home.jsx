@@ -65,8 +65,8 @@ export default function Home() {
           <div className='image-container'>
             <img src={hero} alt='Gym Background' className='hero-image' />
             <div className='overlay-text'>
-              <h1 className='heading'>Workout Plans</h1>
-              <p className='para'>The most comprehensive database of free workout routines anywhere! Download workout plans any goal or experience level.</p>
+              <h1 className='heading'>Best Workout Plans</h1>
+              <p className='para'>The most comprehensive database of  workout routines anywhere! Download workout plans any goal or experience level.</p>
             </div>
           </div>
 

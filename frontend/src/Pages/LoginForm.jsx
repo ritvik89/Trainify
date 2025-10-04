@@ -61,7 +61,7 @@ export default function Login() {
             <div className='login-root'>
                 <Navigation />
                 <div className='login-container'>
-                    <h2>Login Form</h2>
+                    <h2>Login </h2>
                     <form onSubmit={handleLogin}>
                         <input type='email' value={email} onChange={(e) => setEmail(e.target.value)} name='email' placeholder='Enter Email' required />
                         <input type='password' value={password} onChange={(e) => setPassword(e.target.value)} name='password' placeholder='Password' required />

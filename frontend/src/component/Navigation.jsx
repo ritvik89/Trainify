@@ -49,7 +49,7 @@ export default function Navigation() {
         <>
 
             <nav className='nav-container'>
-                <h2><span style={{ fontSize: "2rem", fontWeight: "600", fontStyle: "italic" }}></span>Trainify</h2>
+               <h2 className='web-logo'>  <Link to="/"> Trainify </Link></h2>
                 <div className="nav-links">
                     <Link to="/" className='nav-pages'>Home</Link>
                     <Link to="/pricing" className='nav-pages'>Pricing</Link>

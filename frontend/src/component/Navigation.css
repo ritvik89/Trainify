@@ -28,10 +28,11 @@ body {
 }
 
 /* Logo */
-.nav-container h2 {
+.web-logo a {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #22d3ee; /* Cyan */
+  text-decoration: none;
+  color: #22d3ee; 
 }
 
 /* Center Navigation Links */
@@ -108,7 +109,7 @@ body {
 
 .signup-btn {
   background-color: #22d3ee;
-  color: white;
+  color: black;
 }
 
 .signup-btn:hover {
