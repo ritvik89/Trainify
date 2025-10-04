@@ -1,0 +1,253 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ----------------------------- */
+/*       NAVBAR STYLING         */
+/* ----------------------------- */
+
+.nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 2rem;
+  background-color: #0f172a;
+  font-family: sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
+.nav-container h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #22d3ee; /* Cyan */
+}
+
+/* Center Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 2.5rem;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 1.1rem;
+}
+
+/* Each Page Link */
+.nav-pages {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+  padding: 8px 0;
+}
+
+.nav-pages::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #22d3ee;
+  transition: width 0.3s ease;
+}
+
+.nav-pages:hover {
+  color: #22d3ee;
+}
+
+.nav-pages:hover::after {
+  width: 100%;
+}
+
+/* Right Side Buttons */
+.nav-link {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Login/Signup Buttons */
+.login-btn,
+.signup-btn {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.login-btn {
+  background-color: white;
+  color: #0f172a;
+  border: 2px solid #22d3ee;
+}
+
+.login-btn:hover {
+  background-color: #22d3ee;
+  color: white;
+  transform: scale(1.05);
+}
+
+.signup-btn {
+  background-color: #22d3ee;
+  color: white;
+}
+
+.signup-btn:hover {
+  background-color: #0891b2;
+  transform: scale(1.05);
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  outline: none;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+}
+
+.wel-log {
+  margin-right: 10px;
+  font-weight: bold;
+  color: #facc15;
+}
+
+/* ----------------------------- */
+/*        DROPDOWN STYLING       */
+/* ----------------------------- */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-title {
+  top: 0.5rem;
+  cursor: pointer;
+  padding: 8px;
+  color: #f1f5f9;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.dropdown-title:hover {
+  color: #22d3ee;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1e293b;
+  min-width: 200px;
+  z-index: 100;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  top: 40px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+}
+
+.dropdown-content .dropdown-link {
+  color: #e2e8f0;
+  padding: 14px 18px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  transition: background 0.3s ease, padding-left 0.2s ease;
+}
+
+.dropdown-content .dropdown-link:hover {
+  background-color: #334155;
+  color: #22d3ee;
+  padding-left: 25px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* ----------------------------- */
+/*       RESPONSIVE NAVBAR       */
+/* ----------------------------- */
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .nav-link {
+    margin-top: 1rem;
+    justify-content: flex-start;
+  }
+
+  .dropdown-content {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  .dropdown-content .dropdown-link {
+    padding: 10px 0;
+    border-bottom: 1px solid #334155;
+    background-color: transparent;
+  }
+
+  .dropdown-content .dropdown-link:hover {
+    background-color: transparent;
+    color: #22d3ee;
+    padding-left: 16px;
+  }
+
+  .dropdown-title {
+    padding: 0;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}

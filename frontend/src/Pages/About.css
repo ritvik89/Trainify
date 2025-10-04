@@ -1,0 +1,26 @@
+
+
+.about-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.about-container h1{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about-container p{
+    width: 70%;
+    align-self: center;
+}
+.about-container h3{
+    font-size: 1.5rem;
+    text-align: center;
+     padding-top: 1rem;
+    padding-bottom: 1rem;
+}

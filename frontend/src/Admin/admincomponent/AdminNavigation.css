@@ -1,0 +1,69 @@
+
+.adminnav-root{
+    background-color: black;
+    
+   
+    
+
+}
+
+.adminnav-component{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   padding: 1rem;
+}
+.welbtn-container{
+    display: flex;
+    gap: 1rem;
+    
+}
+    
+   
+
+.adminnav-heading{
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.left {
+  margin-left: 0;
+}
+
+.center {
+ margin: 0 auto;
+}
+
+
+
+  .adminlogout-btn {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    
+    
+   
+   
+    
+}
+
+.adminwel{
+    color: white;
+    font-weight: 700;
+    align-content: center;
+  
+}
+
+.adminhome{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 0.5rem;
+    
+}
+

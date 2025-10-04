@@ -1,0 +1,30 @@
+import React from 'react'
+import './About.css'
+import Navigation from '../component/Navigation'
+import Footer from '../component/Footer'
+
+export default function About() {
+    return (
+        <>
+            <div className='about-root'>
+                <Navigation />
+                <div className='about-container'>
+                    <h1>About Muscle & Strength</h1>
+                    <p>Bodybuilding is the practice of progressive resistance exercise to build, control, and develop one's muscles via hypertrophy.[1] An individual who engages in this activity is referred to as a bodybuilder. It is primarily undertaken for aesthetic purposes over functional ones, distinguishing it from similar activities such as powerlifting and calisthenics.</p><br/>
+                    <p>In competitive bodybuilding, competitors appear onstage in line-ups and perform specified poses (and later individual posing routines) for a panel of judges who rank them based on conditioning, muscularity, posing, size, stage presentation, and symmetry.[2] Bodybuilders prepare for competitions by exercising and eliminating non-essential body fat. This is enhanced at the final stage by a combination of carbohydrate loading and dehydration to achieve maximum muscle definition and vascularity. Most bodybuilders also tan and shave their bodies prior to competition.</p><br/>
+                    <p>Bodybuilding requires significant time and effort to reach the desired results. A novice bodybuilder may be able to gain 8–15 pounds (4–7 kg) of muscle per year if they lift weights for seven hours per week, but muscle gains begin to slow down after the first two years to about 5–15 pounds (2–7 kg) per year. After five years, gains can decrease to as little as 3–10 pounds (1–5 kg) per year.[4] Some bodybuilders use anabolic steroids and other performance-enhancing drugs to build muscles and recover from injuries faster. However, using performance-enhancing drugs can have serious health risks.[5] Furthermore, most competitions prohibit the use of these substances. Despite some calls for drug testing to be implemented, the National Physique Committee (considered the leading amateur bodybuilding federation) does not require testing</p><br/>
+                    
+                    <h3>First large-scale bodybuilding competition</h3>
+                    <p>Sandow organized the first bodybuilding contest on September 14, 1901, called the "Great Competition". It was held at the Royal Albert Hall in London.[10] Judged by Sandow, Sir Charles Lawes, and Sir Arthur Conan Doyle, the contest was a great success and many bodybuilding enthusiasts were turned away due to the overwhelming number of audience members. The trophy presented to the winner was a gold statue of Sandow sculpted by Frederick Pomeroy. The winner was William L. Murray of Nottingham. The silver Sandow trophy was presented to second-place winner D. Cooper. The bronze Sandow trophy—now the most famous of all—was presented to third-place winner A.C. Smythe.[11] In 1950, this same bronze trophy was presented to Steve Reeves for winning the inaugural NABBA Mr. Universe contest. It would not resurface again until 1977 when the winner of the IFBB Mr. Olympia contest, Frank Zane, was presented with a replica of the bronze trophy. Since then, Mr. Olympia winners have been consistently awarded a replica of the bronze Sandow</p><br/>
+                    <p>The first large-scale bodybuilding competition in America took place from December 28, 1903, to January 2, 1904,[12] at Madison Square Garden in New York City. The competition was promoted by Bernarr Macfadden, the father of physical culture and publisher of original bodybuilding magazines such as Health & Strength. The winner was Al Treloar, who was declared "The Most Perfectly Developed Man in the World".[13] Treloar won a thousand dollar cash prize, a substantial sum at that time. Two weeks later, Thomas Edison made a film of Treloar's posing routine. Edison had also made two films of Sandow a few years before. Those were the first three motion pictures featuring a bodybuilder. In the early 20th century, Macfadden and Charles Atlas continued to promote bodybuilding across the world.</p><br/>
+                    
+                    <h3>Anabolic/androgenic steroid use</h3>
+                    <p>This period also saw the rise of anabolic steroids in bodybuilding and many other sports. More significant use began with Arnold Schwarzenegger, Sergio Oliva, and Lou Ferrigno in the late 1960s and early 1970s, and continuing through the 1980s with Lee Haney, the 1990s with Dorian Yates, Ronnie Coleman, and Markus Rühl, and up to the present day. Bodybuilders such as Greg Kovacs attained mass and size never seen previously but were not successful at the pro level. Others were renowned for their spectacular development of a particular body part, like Tom Platz or Paul Demayo for their leg muscles. At the time of shooting Pumping Iron, Schwarzenegger, while never admitting to steroid use until long after his retirement, said, "You have to do anything you can to get the advantage in competition".[citation needed] He would later say that he did not regret using steroids.</p><br/>
+                    <p>To combat anabolic steroid use and in the hopes of becoming a member of the IOC, the IFBB introduced doping tests for both steroids and other banned substances. Although doping tests occurred, the majority of professional bodybuilders still used anabolic steroids for competition. During the 1970s, the use of anabolic steroids was openly discussed, partly due to the fact they were legal.[20] In the Anabolic Steroids Control Act of 1990, U.S. Congress placed anabolic steroids into Schedule III of the Controlled Substances Act (CSA). In Canada, steroids are listed under Schedule IV of the Controlled Drugs and Substances Act, enacted by the federal Parliament in 1996</p><br/>
+
+                </div>
+                <Footer />
+            </div>
+        </>
+    )
+}

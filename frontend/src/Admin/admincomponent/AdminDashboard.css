@@ -1,0 +1,122 @@
+
+.dashboard-root {
+  display: flex;
+  
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 80%;
+  box-sizing: border-box;
+}
+
+
+.menubar-container {
+  background-color: black;
+  padding: 2rem;
+  margin-top: 1rem;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  box-sizing: border-box;
+}
+
+
+.menubar {
+  color: white;
+  border: 1px solid red;
+  padding: 0.5rem;
+}
+
+
+.menubar ul {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.menubar li {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+
+.dashboard-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;     /* horizontal center */
+  align-items: center;         /* vertical center */
+  width: 77vw;
+  height: 80vh;
+  position: absolute;          /* needed if rotating-img has absolute/positioning */
+  overflow: hidden;            /* prevent scroll if image is large */
+  margin-top: 2rem;            /* space from navbar */
+}
+
+.rotating-img {
+  animation: rotate 5s linear infinite;
+  width: 50%;                /* adjust as needed */
+  height: auto;
+  z-index: 10;
+  border-radius: 50%;          /* for circular look */
+  object-fit: contain;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.member-text {
+  font-size: 32px;
+  font-weight: bold;
+  width: 70%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  min-height: 60vh;
+  align-items: center;
+  
+  
+  
+
+
+     
+}
+.member-text h2{
+  color: blue;
+  padding: 2rem;
+  border: 10px solid red; 
+  box-shadow: 2px 5px 10px ;
+}
+
+
+
+
+/* ✅ ADDED: For Active Members Table */
+.member-list {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.member-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.member-list th,
+.member-list td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.member-list th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+

@@ -1,0 +1,37 @@
+.adminlogin-container{
+    text-align: center;
+    margin-top: 10%;
+    width: 400px;
+    background-color: black;
+    justify-self: center;
+    border-radius: 15px;
+    box-shadow: 6px 10px 12px black;
+    
+
+
+}
+.adminlogin-container h2{
+    
+   padding-top: 40px;
+   padding-bottom: 15px;
+    color: white;
+}
+
+.adminform input{
+  width: 80%;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  
+}
+
+.adminlogin-btn{
+    padding: 10px 15px;
+    margin: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
