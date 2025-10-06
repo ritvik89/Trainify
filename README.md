@@ -1,5 +1,5 @@
 # Trainify – Full-Stack Fitness App 
-## HTML, CSS, Js, React, Node.js, Express.js, MongoDB
+## MERN STACK
 Developed a full-stack fitness app with secure user authentication, personalized workout plans, video tutorials,
 
 and subscription-based premium plans.
@@ -8,7 +8,7 @@ Built RESTful APIs with Node.js & Express; managed MongoDB for efficient data st
 
 Designed responsive UI using React, HTML, and CSS for seamless user experience.
 
-## developed by Ritvik
+# Developed by Ritvik
 
 🏠Home Page
 
@@ -50,4 +50,38 @@ Designed responsive UI using React, HTML, and CSS for seamless user experience.
 
 ![payslip](./Screenshots/payslip.png)
 
+
+
+
+## 🚀 Features
+
+- 📝 User Registration and Login
+- 🧘 View Workout Plans and Packages
+- 🛒 Purchase Subscriptions
+- 🔐 Protected Routes 
+- 📁 Clean Folder Structure: Separate `frontend` and `backend`
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology                 |
+|------------|----------------------------|
+| Frontend   | React, React Router, Axios |
+| Backend    | Node.js, Express.js        |
+| Database   | MongoDB + Mongoose         |
+
+---
+
+## Start Backend Server
+
+- cd backend
+- npm install
+- npm start
+
+## Start Frontend Server
+
+- cd frontend
+- npm install
+- npm start /npm run dev
 
