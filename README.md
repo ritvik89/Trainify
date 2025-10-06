@@ -22,7 +22,7 @@ Designed responsive UI using React, HTML, and CSS for seamless user experience.
 
 ![tips](./Screenshots/tips.png)
 
-Footer
+🔻Footer
 
 ![footer](./Screenshots/footer.png)
 
