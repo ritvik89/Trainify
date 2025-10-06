@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import "./payment.css";
+import "./Payment.css";
 import Footer from '../component/Footer';
 import Navigation from '../component/Navigation';
 
